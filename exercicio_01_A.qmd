@@ -1,0 +1,45 @@
+---
+title: "Exercícios 1 - Fundamentos"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+---
+
+Durante a aula 1 vamos criar um dado artificial e lidar com os diferentes tipos e estruturas no processo. Nossos dados simulados terão as seguintes características:
+
+1. Número de grupos: 2. 
+2. Número de participantes por grupo: 20. Atenção, para o exercício a ser entregue o valor é obrigatoriamente vinte.
+3. Controle de TCLE: variável lógica que indica a concordância do participante.
+
+## Parâmetros da Simulação
+
+Crie uma variável `n_grupos` com o número de grupos e uma variável `n_participante_grupo` com o número de participantes por grupo (utilize o valor 20).
+
+```{r}
+# Digite seu código aqui
+
+```
+
+Crie um vetor numérico que tenha a identificação de grupo de cada voluntário. Onde Grupo 1 = 1; Grupo 2 = 2. A variável deve se chamar `vetor_grupos`. Utilize as variáveis criadas anteriormente e a função `rep()`.
+
+```{r}
+# Digite seu código aqui
+yabadabadoo <- "t"
+```
+
+Crie uma variável lógica para o Controle de TCLE chamada `tcle`. O Participante 1 do Grupo 1 retirou a concordância dele, portanto, seu valor será falso e todos os outros serão verdadeiros.
+
+```{r}
+# Digite seu código aqui
+
+```
+
+Crie um vetor com um número para cada participante (um identificador sequencial de 1 até o total de participantes da amostra). Chame-o de `vetor_participantes`.
+
+```{r}
+# Digite seu código aqui
+
+```
