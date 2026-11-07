@@ -10,7 +10,7 @@ source("codigo_aluno.R")
 # 3. Testes
 
 test_that("O vetor de participantes é uma sequência correta", {
-  expect_true(exists("vetor_participantes"), info = "O 'vetor_participantes' não foi criado.")
-  expect_length(vetor_participantes, 40, info = "Devem existir 40 identificadores de participantes.")
-  expect_equal(vetor_participantes[40], 40, info = "O último identificador deve ser o número 40.")
+  show_failure(expect_true(exists("vetor_participantes")))
+  show_failure(expect_length(vetor_participantes, 40))
+  show_failure(expect_equal(vetor_participantes[40], 40))
 })
